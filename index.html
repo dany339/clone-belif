@@ -40,6 +40,8 @@
       content="https://belifmall.com/web/upload/share-image-1-f4667de6ac48bf2c734d45ce2832e3d4.png"
     />
     <title>빌리프 공식 온라인몰</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
   </head>
   <body id="main">
     <div id="wrapper">
@@ -49,18 +51,1212 @@
         <p><a href="#contents">본문 바로가기</a></p>
       </div>
       <!-- // skipNavigation -->
+
       <!-- main-container -->
-      <div class="main-container"></div>
+      <div class="main-container">
+        <div class="fixed" id="header">
+          <!-- 최상단배너 -->
+          <div id="tbanner" style="height: 40px">
+            <ul class="image_list" style="margin-top: 0px">
+              <li data-num="1">
+                <a href="" style="background: #333; color: #000"
+                  ><strong
+                    ><strong style="color: #fff"
+                      >신제품 아쿠아밤 프로즌 토너 리뷰 체험단 모집</strong
+                    ></strong
+                  ></a
+                >
+              </li>
+              <li data-num="2">
+                <a href="" style="background: #333; color: #000"
+                  ><strong
+                    ><strong style="color: #fff"
+                      >MD's Pick 빌리프몰만의 혜택</strong
+                    ></strong
+                  ></a
+                >
+              </li>
+              <li data-num="3">
+                <a href="" style="background: #333; color: #000"
+                  ><strong
+                    ><strong style="color: #fff"
+                      >슈퍼 나이츠 마스크 추가 5% OFF 쿠폰</strong
+                    ></strong
+                  ></a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- // 최상단배너 -->
+          <div class="top-area">
+            <div class="logo-wrap">
+              <div class="site-wrap">
+                <div class="logo-img">
+                  <div class="vertical">
+                    <a href="./index.html"
+                      ><img
+                        src="./images/common/belif_logo_new2.png"
+                        alt="빌리프"
+                    /></a>
+                  </div>
+                </div>
+                <div class="top-member">
+                  <div class="vertical">
+                    <div class="log">
+                      <!-- 상단 로그인 전 -->
+                      <div
+                        class="sans-element- xans-layout xans-layout-statelogoff"
+                      >
+                        <div class="community_menu_wp">
+                          <a href="" class="comm_tit">고객센터</a>
+                          <div class="community_menu">
+                            <a href="">1:1문의</a><a href="">공지사항</a>
+                          </div>
+                        </div>
+                        <a href="">로그인</a
+                        ><a href=""
+                          >회원가입<span class="bb">5% 할인쿠폰</span></a
+                        ><a href="">주문조회</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cate-wrap">
+              <div class="inner">
+                <div class="site-wrap">
+                  <div class="float-left">
+                    <!-- 스크롤 시 로고 -->
+                    <h1
+                      class="logo-img"
+                      style="
+                        margin-right: 50px;
+                        width: 170px;
+                        visibility: visible;
+                        opacity: 1;
+                      "
+                    >
+                      <div class="vertical">
+                        <a href="./index.html"
+                          ><img
+                            src="./images/common/belif_logo_new2.png"
+                            alt=""
+                        /></a>
+                      </div>
+                    </h1>
+                    <!-- // 스크롤 시 로고 -->
+                    <div class="gnbBtn">
+                      <span class="line"></span>
+                      <span class="line"></span>
+                      <span class="line"></span>
+                    </div>
+                    <div class="all_cate_wrap">
+                      <div class="cate_inner">
+                        <div class="cate_box mg">
+                          <p class="ttl"><a href="">유형별</a></p>
+                          <ul>
+                            <li><a href="">에센스/세럼/앰플</a></li>
+                            <li><a href="">로션/크림</a></li>
+                          </ul>
+                        </div>
+                        <div class="cate_box cate_bd">
+                          <p class="ttl"><a href="">라인별</a></p>
+                          <ul>
+                            <li><a href=""></a>모이스처라이징 밤</li>
+                            <li><a href=""></a>아쿠아 밤</li>
+                          </ul>
+                        </div>
+                        <div class="cate_box cate_bd">
+                          <p class="ttl"><a href="">피부고민</a></p>
+                          <ul>
+                            <li><a href="">수분/보습</a></li>
+                            <li><a href="">영양/안티에이징</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 상단 카테고리 -->
+                    <div class="bs"><a href="">기획전</a></div>
+                    <div class="bs"><a href="">이벤트</a></div>
+                    <div class="bs"><a href="">제품</a></div>
+                    <div class="bs"><a href="">베스트</a></div>
+                    <div class="bs"><a href="">리뷰왕</a></div>
+                    <div class="bs"><a href="">멤버쉽</a></div>
+                    <div class="bs"><a href="">About Us</a></div>
+                  </div>
+                  <div class="float-right">
+                    <!-- 장바구니 -->
+                    <div
+                      class="xans-element- xans-layout xans-layout-orderbasketcount bt-basket"
+                    >
+                      <a href="">장바구니<span class="count">0</span></a>
+                    </div>
+                    <!-- // 장바구니 -->
+                    <!-- 검색 -->
+                    <form
+                      action=""
+                      id="searchBarForm"
+                      method="get"
+                      target="_self"
+                      enctype="multipart/form-data"
+                    >
+                      <input
+                        type="hidden"
+                        name="banner_action"
+                        id="banner_action"
+                      />
+                      <div
+                        class="xans-element- xans-layout xans-layout-searchheader"
+                      >
+                        <fieldset>
+                          <input type="text" id="keyword" />
+                          <input
+                            type="image"
+                            class="bt-search"
+                            src="./images/common/bt_top_search.png"
+                            alt="검색"
+                            oneclick="SEARCH_BANNER.submitSearchBanner(this); return false;"
+                          />
+                          <ul class="autoDrop"></ul>
+                        </fieldset>
+                        <div class="search-dropbox">
+                          <div
+                            class="xans-element- xans-search xans-search-hotkeyword"
+                          >
+                            <h5>추천 검색어</h5>
+                            <p>
+                              <a href="" class="xans-record-"
+                                >모이스춰라이징 밤</a
+                              >
+                              <a href="" class="xans-record-">아쿠아 밤</a>
+                              <a href="" class="xans-record-">뉴메로</a>
+                              <a href="" class="xans-record-">에이지 넉다운</a>
+                              <a href="" class="xans-record-">슈퍼나이츠</a>
+                              <a href="" class="xans-record-">슈퍼드랍스</a>
+                              <a href="" class="xans-record-">프라블럼</a>
+                              <a href="" class="xans-record-">맨올로지</a>
+                              <a href="" class="xans-record-">클래식</a>
+                              <a href="" class="xans-record-">토너</a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!-- // 검색 -->
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div id="wrap" style="margin-top: 0px">
+          <div id="container">
+            <div id="contents">
+              <!-- 배너 슬라이드 -->
+              <div class="main_bnr_100 bxslider-wrap">
+                <div>
+                  <div class="bx-wrapper" style="max-width: 100%">
+                    <div
+                      class="bx-viewport"
+                      style="
+                        max-width: 100%;
+                        overflow: hidden;
+                        position: relative;
+                        height: 800px;
+                      "
+                    >
+                      <ul
+                        id="bxslider1"
+                        style="width: auto; position: relative; z-index: 1"
+                      >
+                        <li class="fp-completely">
+                          <a href=""
+                            ><img src="./images/main/main_250508_9.jpg" alt=""
+                          /></a>
+                        </li>
+                        <li class="fp-completely">
+                          <a href=""
+                            ><img src="./images/main/main_250526_1.jpg" alt=""
+                          /></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div
+                      class="bx-controls bx-has-pager bx-has-controls-direction"
+                    >
+                      <div class="bx-pager bx-default-pager">
+                        <div class="bx-pager-item">
+                          <a href="" class="bx-pager-link" data-slide-index="0"
+                            >1</a
+                          >
+                        </div>
+                        <div class="bx-pager-item">
+                          <a href="" class="bx-pager-link" data-slide-index="1"
+                            >2</a
+                          >
+                        </div>
+                      </div>
+                      <div class="bx-controls-direction">
+                        <a href="" class="bx-prev">Prev</a
+                        ><a href="" class="bx-next">Next</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- // 배너 슬라이드 -->
+
+              <!-- 인기 카테고리 -->
+              <div class="main_category_wrap">
+                <div class="site-wrap">
+                  <div class="bx">
+                    <ul>
+                      <li>
+                        <a href="">
+                          <span class="img"
+                            ><img
+                              src="./images/main/p__categoryIco_01.png"
+                              alt=""
+                              width="130px"
+                          /></span>
+                          <span class="txt">전체상품</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="">
+                          <span class="img"
+                            ><img
+                              src="./images/main/bestcate_mdpick.png"
+                              alt=""
+                              width="130px"
+                          /></span>
+                          <span class="txt">MD's Pick</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="">
+                          <span class="img"
+                            ><img
+                              src="./images/main/bestcate_12.png"
+                              alt=""
+                              width="130px"
+                          /></span>
+                          <span class="txt">크림</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="">
+                          <span class="img"
+                            ><img
+                              src="./images/main/bestcate_11.png"
+                              alt=""
+                              width="130px"
+                          /></span>
+                          <span class="txt">에센스</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="">
+                          <span class="img"
+                            ><img
+                              src="./images/main/bestcate_10.png"
+                              alt=""
+                              width="130px"
+                          /></span>
+                          <span class="txt">토너</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="">
+                          <span class="img"
+                            ><img
+                              src="./images/main/bestcate_09.png"
+                              alt=""
+                              width="130px"
+                          /></span>
+                          <span class="txt">슈퍼 나이츠</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="">
+                          <span class="img"
+                            ><img
+                              src="./images/main/bestcate_16.png"
+                              alt=""
+                              width="130px"
+                          /></span>
+                          <span class="txt">슈퍼 드랍스</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="">
+                          <span class="img"
+                            ><img
+                              src="./images/main/bestcate_14.png"
+                              alt=""
+                              width="130px"
+                          /></span>
+                          <span class="txt">선</span></a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- // 인기 카테고리 -->
+
+              <!-- 인기 상품 -->
+              <link
+                rel="stylesheet"
+                href="https://unpkg.com/swiper@11.2.6/swiper-bundle.min.css"
+              />
+              <link
+                rel="stylesheet"
+                href="https://saladlab-widgets.s3.ap-northeast-2.amazonaws.com/alpha-upsell/styles/main-page.css"
+              />
+              <link
+                rel="stylesheet"
+                href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+              />
+              <link
+                rel="stylesheet"
+                href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"
+              />
+              <link
+                rel="stylesheet"
+                href="https://fonts.googleapis.com/earlyaccess/nanumgothic.css"
+              />
+              <link
+                rel="stylesheet"
+                href="https://fonts.googleapis.com/earlyaccess/nanummyeongjo.css"
+              />
+              <link
+                rel="stylesheet"
+                href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+              />
+              <script src="https://unpkg.com/swiper@11.2.6/swiper-bundle.min.js"></script>
+              <section
+                id="upsell-widget-main-page"
+                style="--main-btn-color:#2E2E31; --main-btn-text-color:#fff; --point-color:#f43e3f;
+                --discount-rate-color:#ff6060; --margin-bottom:60px; --margin-top:15px; --margin-left:120px; --margin-right:120px; --num-col:5;
+                --num-row:1; --padding-col:45px; --padding-row:15px; --thumbnail-border-radius:0px; --thumbnail-image-ratio:1; --container-max-width:1240px
+                --product-name-line-clamp:1; --font-family:Pretendard;"
+              >
+                <div class="widget-wrapper">
+                  <h1 class="line-title">지금 인기 있는 상품이에요</h1>
+                  <div
+                    class="product-container"
+                    style="
+                      --grid-cols: 5;
+                      --grid-rows: 1;
+                      --gap-col: 15px;
+                      --gap-row: 45px;
+                    "
+                  >
+                    <div
+                      class="swiper-container swiper-initialized swiper-horizontal swiper-free-mode swiper-backface-hidden"
+                      id="swiper-line-0"
+                      data-swiper-id="swiper-0"
+                    >
+                      <div
+                        class="swiper-wrapper"
+                        id="swiper-wrapper-1df169f4ff7e2bbc"
+                        aria-live="polite"
+                      >
+                        <div
+                          class="swiper-slide"
+                          role="group"
+                          aria-label="1 / 6"
+                          style="width: 1240px; margin-right: 15px"
+                        >
+                          <div class="grid-container">
+                            <div
+                              class="product"
+                              data-product-no="816"
+                              style="height: 358px"
+                            >
+                              <div class="image-wrapper">
+                                <img
+                                  src="./images/main/1.png"
+                                  alt="빌리프 아쿠아 밤 점보 에디션 100ml"
+                                />
+                                <div class="thumbnail-btn">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="22"
+                                    height="22"
+                                    viewBox="0 0 22 22"
+                                    fill="none"
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="M9.45573 3.66927C8.31128 3.66927 7.19253 4.00864 6.24095 4.64446C5.28937 5.28029 4.54771 6.18401 4.10974 7.24135C3.67178 8.29868 3.55719 9.46215 3.78046 10.5846C4.00373 11.7071 4.55484 12.7381 5.36409 13.5474C6.17334 14.3566 7.20439 14.9077 8.32685 15.131C9.44931 15.3543 10.6128 15.2397 11.6701 14.8017C12.7275 14.3638 13.6312 13.6221 14.267 12.6705C14.9028 11.7189 15.2422 10.6002 15.2422 9.45573C15.2422 8.69584 15.0925 7.94339 14.8017 7.24135C14.5109 6.5393 14.0847 5.90141 13.5474 5.36408C13.0101 4.82676 12.3722 4.40054 11.6701 4.10974C10.9681 3.81894 10.2156 3.66927 9.45573 3.66927ZM5.2224 3.1201C6.47547 2.28283 7.94868 1.83594 9.45573 1.83594C10.4564 1.83594 11.4472 2.03303 12.3717 2.41596C13.2962 2.79889 14.1362 3.36016 14.8437 4.06772C15.5513 4.77529 16.1126 5.61528 16.4955 6.53976C16.8784 7.46424 17.0755 8.45508 17.0755 9.45573C17.0755 10.9628 16.6286 12.436 15.7914 13.6891C14.9541 14.9421 13.764 15.9188 12.3717 16.4955C10.9794 17.0722 9.44728 17.2231 7.96918 16.9291C6.49109 16.6351 5.13337 15.9094 4.06773 14.8437C3.00208 13.7781 2.27636 12.4204 1.98235 10.9423C1.68834 9.46418 1.83924 7.93209 2.41596 6.53976C2.99269 5.14743 3.96933 3.95738 5.2224 3.1201Z"
+                                      fill="white"
+                                    ></path>
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="M13.5628 13.5628C13.9207 13.2048 14.5011 13.2048 14.8591 13.5628L20.0154 18.719C20.3734 19.077 20.3734 19.6574 20.0154 20.0154C19.6574 20.3733 19.077 20.3734 18.719 20.0154L13.5628 14.8591C13.2048 14.5011 13.2048 13.9207 13.5628 13.5628Z"
+                                      fill="white"
+                                    ></path>
+                                  </svg>
+                                </div>
+                              </div>
+                              <p class="product-name">
+                                빌리프 아쿠아 밤 점보 에디션 100ml
+                              </p>
+                              <div class="price-wrapper">
+                                <span class="origin-price">73,000원</span>
+                                <p class="product-price retail">
+                                  <span class="discount-rate">10%</span>
+                                  65,700원
+                                </p>
+                              </div>
+                              <div class="action-btn">장바구니 담기</div>
+                            </div>
+                            <div
+                              class="product"
+                              data-product-no="830"
+                              style="height: 358px"
+                            >
+                              <div class="image-wrapper">
+                                <img
+                                  src="./images/main/2.png"
+                                  alt="빌리프 아쿠아 밤 프로즌 크림"
+                                />
+                                <div class="thumbnail-btn">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="22"
+                                    height="22"
+                                    viewBox="0 0 22 22"
+                                    fill="none"
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="M9.45573 3.66927C8.31128 3.66927 7.19253 4.00864 6.24095 4.64446C5.28937 5.28029 4.54771 6.18401 4.10974 7.24135C3.67178 8.29868 3.55719 9.46215 3.78046 10.5846C4.00373 11.7071 4.55484 12.7381 5.36409 13.5474C6.17334 14.3566 7.20439 14.9077 8.32685 15.131C9.44931 15.3543 10.6128 15.2397 11.6701 14.8017C12.7275 14.3638 13.6312 13.6221 14.267 12.6705C14.9028 11.7189 15.2422 10.6002 15.2422 9.45573C15.2422 8.69584 15.0925 7.94339 14.8017 7.24135C14.5109 6.5393 14.0847 5.90141 13.5474 5.36408C13.0101 4.82676 12.3722 4.40054 11.6701 4.10974C10.9681 3.81894 10.2156 3.66927 9.45573 3.66927ZM5.2224 3.1201C6.47547 2.28283 7.94868 1.83594 9.45573 1.83594C10.4564 1.83594 11.4472 2.03303 12.3717 2.41596C13.2962 2.79889 14.1362 3.36016 14.8437 4.06772C15.5513 4.77529 16.1126 5.61528 16.4955 6.53976C16.8784 7.46424 17.0755 8.45508 17.0755 9.45573C17.0755 10.9628 16.6286 12.436 15.7914 13.6891C14.9541 14.9421 13.764 15.9188 12.3717 16.4955C10.9794 17.0722 9.44728 17.2231 7.96918 16.9291C6.49109 16.6351 5.13337 15.9094 4.06773 14.8437C3.00208 13.7781 2.27636 12.4204 1.98235 10.9423C1.68834 9.46418 1.83924 7.93209 2.41596 6.53976C2.99269 5.14743 3.96933 3.95738 5.2224 3.1201Z"
+                                      fill="white"
+                                    ></path>
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="M13.5628 13.5628C13.9207 13.2048 14.5011 13.2048 14.8591 13.5628L20.0154 18.719C20.3734 19.077 20.3734 19.6574 20.0154 20.0154C19.6574 20.3733 19.077 20.3734 18.719 20.0154L13.5628 14.8591C13.2048 14.5011 13.2048 13.9207 13.5628 13.5628Z"
+                                      fill="white"
+                                    ></path>
+                                  </svg>
+                                </div>
+                              </div>
+                              <p class="product-name">
+                                빌리프 아쿠아 밤 프로즌 크림
+                              </p>
+                              <div class="price-wrapper">
+                                <span class="origin-price">32,000원</span>
+                                <p class="product-price retail">
+                                  <span class="discount-rate">10%</span>
+                                  28,800원
+                                </p>
+                              </div>
+                              <div class="action-btn">장바구니 담기</div>
+                            </div>
+                            <div
+                              class="product"
+                              data-product-no="815"
+                              style="height: 358px"
+                            >
+                              <div class="image-wrapper">
+                                <img
+                                  src="./images/main/3.png"
+                                  alt="[MD's Pick] 빌리프 모이스춰라이징 밤 50ml"
+                                />
+                                <div class="thumbnail-btn">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="22"
+                                    height="22"
+                                    viewBox="0 0 22 22"
+                                    fill="none"
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="M9.45573 3.66927C8.31128 3.66927 7.19253 4.00864 6.24095 4.64446C5.28937 5.28029 4.54771 6.18401 4.10974 7.24135C3.67178 8.29868 3.55719 9.46215 3.78046 10.5846C4.00373 11.7071 4.55484 12.7381 5.36409 13.5474C6.17334 14.3566 7.20439 14.9077 8.32685 15.131C9.44931 15.3543 10.6128 15.2397 11.6701 14.8017C12.7275 14.3638 13.6312 13.6221 14.267 12.6705C14.9028 11.7189 15.2422 10.6002 15.2422 9.45573C15.2422 8.69584 15.0925 7.94339 14.8017 7.24135C14.5109 6.5393 14.0847 5.90141 13.5474 5.36408C13.0101 4.82676 12.3722 4.40054 11.6701 4.10974C10.9681 3.81894 10.2156 3.66927 9.45573 3.66927ZM5.2224 3.1201C6.47547 2.28283 7.94868 1.83594 9.45573 1.83594C10.4564 1.83594 11.4472 2.03303 12.3717 2.41596C13.2962 2.79889 14.1362 3.36016 14.8437 4.06772C15.5513 4.77529 16.1126 5.61528 16.4955 6.53976C16.8784 7.46424 17.0755 8.45508 17.0755 9.45573C17.0755 10.9628 16.6286 12.436 15.7914 13.6891C14.9541 14.9421 13.764 15.9188 12.3717 16.4955C10.9794 17.0722 9.44728 17.2231 7.96918 16.9291C6.49109 16.6351 5.13337 15.9094 4.06773 14.8437C3.00208 13.7781 2.27636 12.4204 1.98235 10.9423C1.68834 9.46418 1.83924 7.93209 2.41596 6.53976C2.99269 5.14743 3.96933 3.95738 5.2224 3.1201Z"
+                                      fill="white"
+                                    ></path>
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="M13.5628 13.5628C13.9207 13.2048 14.5011 13.2048 14.8591 13.5628L20.0154 18.719C20.3734 19.077 20.3734 19.6574 20.0154 20.0154C19.6574 20.3733 19.077 20.3734 18.719 20.0154L13.5628 14.8591C13.2048 14.5011 13.2048 13.9207 13.5628 13.5628Z"
+                                      fill="white"
+                                    ></path>
+                                  </svg>
+                                </div>
+                              </div>
+                              <p class="product-name">
+                                [MD's Pick] 빌리프 모이스춰라이징 밤 50ml
+                              </p>
+                              <div class="price-wrapper">
+                                <span class="origin-price">48,000원</span>
+                                <p class="product-price retail">
+                                  <span class="discount-rate">15%</span>
+                                  40,800원
+                                </p>
+                              </div>
+                              <div class="action-btn">장바구니 담기</div>
+                            </div>
+                            <div
+                              class="product"
+                              data-product-no="774"
+                              style="height: 358px"
+                            >
+                              <div class="image-wrapper">
+                                <img
+                                  src="./images/main/4.png"
+                                  alt="[MD's Pick] 빌리프 모이스춰라이징 밤 75ml 기획 세트"
+                                />
+                                <div class="thumbnail-btn">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="22"
+                                    height="22"
+                                    viewBox="0 0 22 22"
+                                    fill="none"
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="M9.45573 3.66927C8.31128 3.66927 7.19253 4.00864 6.24095 4.64446C5.28937 5.28029 4.54771 6.18401 4.10974 7.24135C3.67178 8.29868 3.55719 9.46215 3.78046 10.5846C4.00373 11.7071 4.55484 12.7381 5.36409 13.5474C6.17334 14.3566 7.20439 14.9077 8.32685 15.131C9.44931 15.3543 10.6128 15.2397 11.6701 14.8017C12.7275 14.3638 13.6312 13.6221 14.267 12.6705C14.9028 11.7189 15.2422 10.6002 15.2422 9.45573C15.2422 8.69584 15.0925 7.94339 14.8017 7.24135C14.5109 6.5393 14.0847 5.90141 13.5474 5.36408C13.0101 4.82676 12.3722 4.40054 11.6701 4.10974C10.9681 3.81894 10.2156 3.66927 9.45573 3.66927ZM5.2224 3.1201C6.47547 2.28283 7.94868 1.83594 9.45573 1.83594C10.4564 1.83594 11.4472 2.03303 12.3717 2.41596C13.2962 2.79889 14.1362 3.36016 14.8437 4.06772C15.5513 4.77529 16.1126 5.61528 16.4955 6.53976C16.8784 7.46424 17.0755 8.45508 17.0755 9.45573C17.0755 10.9628 16.6286 12.436 15.7914 13.6891C14.9541 14.9421 13.764 15.9188 12.3717 16.4955C10.9794 17.0722 9.44728 17.2231 7.96918 16.9291C6.49109 16.6351 5.13337 15.9094 4.06773 14.8437C3.00208 13.7781 2.27636 12.4204 1.98235 10.9423C1.68834 9.46418 1.83924 7.93209 2.41596 6.53976C2.99269 5.14743 3.96933 3.95738 5.2224 3.1201Z"
+                                      fill="white"
+                                    ></path>
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="M13.5628 13.5628C13.9207 13.2048 14.5011 13.2048 14.8591 13.5628L20.0154 18.719C20.3734 19.077 20.3734 19.6574 20.0154 20.0154C19.6574 20.3733 19.077 20.3734 18.719 20.0154L13.5628 14.8591C13.2048 14.5011 13.2048 13.9207 13.5628 13.5628Z"
+                                      fill="white"
+                                    ></path>
+                                  </svg>
+                                </div>
+                              </div>
+                              <p class="product-name">
+                                [MD's Pick] 빌리프 모이스춰라이징 밤 75ml 기획
+                                세트
+                              </p>
+                              <div class="price-wrapper">
+                                <span class="origin-price">65,000원</span>
+                                <p class="product-price retail">
+                                  <span class="discount-rate">15%</span>
+                                  55,250원
+                                </p>
+                              </div>
+                              <div class="action-btn">장바구니 담기</div>
+                            </div>
+                            <div
+                              class="product"
+                              data-product-no="832"
+                              style="height: 358px"
+                            >
+                              <div class="image-wrapper">
+                                <img
+                                  src="./images/main/5.png"
+                                  alt="빌리프 아쿠아 밤 프로즌 토너"
+                                />
+                                <div class="thumbnail-btn">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="22"
+                                    height="22"
+                                    viewBox="0 0 22 22"
+                                    fill="none"
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="M9.45573 3.66927C8.31128 3.66927 7.19253 4.00864 6.24095 4.64446C5.28937 5.28029 4.54771 6.18401 4.10974 7.24135C3.67178 8.29868 3.55719 9.46215 3.78046 10.5846C4.00373 11.7071 4.55484 12.7381 5.36409 13.5474C6.17334 14.3566 7.20439 14.9077 8.32685 15.131C9.44931 15.3543 10.6128 15.2397 11.6701 14.8017C12.7275 14.3638 13.6312 13.6221 14.267 12.6705C14.9028 11.7189 15.2422 10.6002 15.2422 9.45573C15.2422 8.69584 15.0925 7.94339 14.8017 7.24135C14.5109 6.5393 14.0847 5.90141 13.5474 5.36408C13.0101 4.82676 12.3722 4.40054 11.6701 4.10974C10.9681 3.81894 10.2156 3.66927 9.45573 3.66927ZM5.2224 3.1201C6.47547 2.28283 7.94868 1.83594 9.45573 1.83594C10.4564 1.83594 11.4472 2.03303 12.3717 2.41596C13.2962 2.79889 14.1362 3.36016 14.8437 4.06772C15.5513 4.77529 16.1126 5.61528 16.4955 6.53976C16.8784 7.46424 17.0755 8.45508 17.0755 9.45573C17.0755 10.9628 16.6286 12.436 15.7914 13.6891C14.9541 14.9421 13.764 15.9188 12.3717 16.4955C10.9794 17.0722 9.44728 17.2231 7.96918 16.9291C6.49109 16.6351 5.13337 15.9094 4.06773 14.8437C3.00208 13.7781 2.27636 12.4204 1.98235 10.9423C1.68834 9.46418 1.83924 7.93209 2.41596 6.53976C2.99269 5.14743 3.96933 3.95738 5.2224 3.1201Z"
+                                      fill="white"
+                                    ></path>
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="M13.5628 13.5628C13.9207 13.2048 14.5011 13.2048 14.8591 13.5628L20.0154 18.719C20.3734 19.077 20.3734 19.6574 20.0154 20.0154C19.6574 20.3733 19.077 20.3734 18.719 20.0154L13.5628 14.8591C13.2048 14.5011 13.2048 13.9207 13.5628 13.5628Z"
+                                      fill="white"
+                                    ></path>
+                                  </svg>
+                                </div>
+                              </div>
+                              <p class="product-name">
+                                빌리프 아쿠아 밤 프로즌 토너
+                              </p>
+                              <div class="price-wrapper">
+                                <span class="origin-price">32,000원</span>
+                                <p class="product-price retail">
+                                  <span class="discount-rate">10%</span>
+                                  28,800원
+                                </p>
+                              </div>
+                              <div class="action-btn">장바구니 담기</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="swiper-slide"
+                          role="group"
+                          aria-label="2 / 6"
+                          style="width: 1240px; margin-right: 15px"
+                        >
+                          <div class="grid-container">
+                            <div
+                              class="product"
+                              data-product-no="831"
+                              style="height: 358px"
+                            >
+                              <div class="image-wrapper">
+                                <img
+                                  src="./images/main/6.png"
+                                  alt="빌리프 아쿠아 밤 프로즌 모델링 마스크"
+                                />
+                                <div class="thumbnail-btn">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="22"
+                                    height="22"
+                                    viewBox="0 0 22 22"
+                                    fill="none"
+                                  >
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="M9.45573 3.66927C8.31128 3.66927 7.19253 4.00864 6.24095 4.64446C5.28937 5.28029 4.54771 6.18401 4.10974 7.24135C3.67178 8.29868 3.55719 9.46215 3.78046 10.5846C4.00373 11.7071 4.55484 12.7381 5.36409 13.5474C6.17334 14.3566 7.20439 14.9077 8.32685 15.131C9.44931 15.3543 10.6128 15.2397 11.6701 14.8017C12.7275 14.3638 13.6312 13.6221 14.267 12.6705C14.9028 11.7189 15.2422 10.6002 15.2422 9.45573C15.2422 8.69584 15.0925 7.94339 14.8017 7.24135C14.5109 6.5393 14.0847 5.90141 13.5474 5.36408C13.0101 4.82676 12.3722 4.40054 11.6701 4.10974C10.9681 3.81894 10.2156 3.66927 9.45573 3.66927ZM5.2224 3.1201C6.47547 2.28283 7.94868 1.83594 9.45573 1.83594C10.4564 1.83594 11.4472 2.03303 12.3717 2.41596C13.2962 2.79889 14.1362 3.36016 14.8437 4.06772C15.5513 4.77529 16.1126 5.61528 16.4955 6.53976C16.8784 7.46424 17.0755 8.45508 17.0755 9.45573C17.0755 10.9628 16.6286 12.436 15.7914 13.6891C14.9541 14.9421 13.764 15.9188 12.3717 16.4955C10.9794 17.0722 9.44728 17.2231 7.96918 16.9291C6.49109 16.6351 5.13337 15.9094 4.06773 14.8437C3.00208 13.7781 2.27636 12.4204 1.98235 10.9423C1.68834 9.46418 1.83924 7.93209 2.41596 6.53976C2.99269 5.14743 3.96933 3.95738 5.2224 3.1201Z"
+                                      fill="white"
+                                    ></path>
+                                    <path
+                                      fill-rule="evenodd"
+                                      clip-rule="evenodd"
+                                      d="M13.5628 13.5628C13.9207 13.2048 14.5011 13.2048 14.8591 13.5628L20.0154 18.719C20.3734 19.077 20.3734 19.6574 20.0154 20.0154C19.6574 20.3733 19.077 20.3734 18.719 20.0154L13.5628 14.8591C13.2048 14.5011 13.2048 13.9207 13.5628 13.5628Z"
+                                      fill="white"
+                                    ></path>
+                                  </svg>
+                                </div>
+                              </div>
+                              <p class="product-name">
+                                빌리프 아쿠아 밤 프로즌 모델링 마스크
+                              </p>
+                              <div class="price-wrapper">
+                                <span class="origin-price">32,000원</span>
+                                <p class="product-price retail">
+                                  <span class="discount-rate">10%</span>
+                                  28,800원
+                                </p>
+                              </div>
+                              <div class="action-btn">장바구니 담기</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-button-next">
+                        <svg
+                          class="next-icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="25"
+                          height="24"
+                          viewBox="0 0 25 24"
+                          fill="none"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M7.77727 20.7071C7.38674 20.3166 7.38674 19.6834 7.77727 19.2929L15.0702 12L7.77727 4.70711C7.38674 4.31658 7.38674 3.68342 7.77727 3.29289C8.16779 2.90237 8.80096 2.90237 9.19148 3.29289L16.8379 10.9393C17.4237 11.5251 17.4237 12.4749 16.8379 13.0607L9.19148 20.7071C8.80096 21.0976 8.16779 21.0976 7.77727 20.7071Z"
+                            fill="#6e6e72"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="swiper-button-prev disabled">
+                        <svg
+                          class="prev-icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="25"
+                          height="24"
+                          viewBox="0 0 25 24"
+                          fill="none"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M17.1915 3.29289C17.582 3.68342 17.582 4.31658 17.1915 4.70711L9.89859 12L17.1915 19.2929C17.582 19.6834 17.582 20.3166 17.1915 20.7071C16.801 21.0976 16.1678 21.0976 15.7773 20.7071L8.13082 13.0607C7.54504 12.4749 7.54503 11.5251 8.13082 10.9393L15.7773 3.29289C16.1678 2.90237 16.801 2.90237 17.1915 3.29289Z"
+                            fill="#6e6e72"
+                          ></path>
+                        </svg>
+                      </div>
+                      <span
+                        class="swiper-notification"
+                        aria-live="assertive"
+                        aria-atomic="true"
+                      ></span>
+                      <div class="pagination-wrapper">
+                        <span class="pagination-prev pagination-prev-swiper-0">
+                          <svg
+                            class="prev-icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="25"
+                            height="24"
+                            viewBox="0 0 25 24"
+                            fill="none"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M17.1915 3.29289C17.582 3.68342 17.582 4.31658 17.1915 4.70711L9.89859 12L17.1915 19.2929C17.582 19.6834 17.582 20.3166 17.1915 20.7071C16.801 21.0976 16.1678 21.0976 15.7773 20.7071L8.13082 13.0607C7.54504 12.4749 7.54503 11.5251 8.13082 10.9393L15.7773 3.29289C16.1678 2.90237 16.801 2.90237 17.1915 3.29289Z"
+                              fill="#6e6e72"
+                            ></path>
+                          </svg>
+                        </span>
+                        <div
+                          class="swiper-pagination swiper-pagination-swiper-0 number-slider"
+                        >
+                          <span class="number-slider-text">2 / 6</span>
+                        </div>
+                        <span class="pagination-next pagination-next-swiper-0">
+                          <svg
+                            class="next-icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="25"
+                            height="24"
+                            viewBox="0 0 25 24"
+                            fill="none"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M7.77727 20.7071C7.38674 20.3166 7.38674 19.6834 7.77727 19.2929L15.0702 12L7.77727 4.70711C7.38674 4.31658 7.38674 3.68342 7.77727 3.29289C8.16779 2.90237 8.80096 2.90237 9.19148 3.29289L16.8379 10.9393C17.4237 11.5251 17.4237 12.4749 16.8379 13.0607L9.19148 20.7071C8.80096 21.0976 8.16779 21.0976 7.77727 20.7071Z"
+                              fill="#6e6e72"
+                            ></path>
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- // 인기 상품 -->
+
+              <!-- 베스트 상품 -->
+              <div class="prd-best">
+                <div class="site-wrap">
+                  <div class="ec-base-product">
+                    <div class="section-title">
+                      <h3>
+                        <span
+                          >베스트셀러<br />
+                          <h2>(최근 30일 최다 주문)</h2></span
+                        >
+                      </h3>
+                    </div>
+                    <div
+                      class="xans-element- xans-product xans-product-listmain-10 xans-product-listmain xans-product-10 swiper-container swiper-container-initialized swiper-container-horizontal"
+                    >
+                      <ul class="prdList grid3 swiper-wrapper">
+                        <li
+                          id="anchorBoxId_816"
+                          class="swiper-slide xans-record- sciper-slide-active"
+                        >
+                          <div class="thumbnail">
+                            <div class="prdImg">
+                              <a href="" name="anchorBoxName-816"
+                                ><img
+                                  src="./images/main/1.png"
+                                  alt="빌리프 아쿠아 밤 점보 에디션 100ml"
+                              /></a>
+                            </div>
+                            <div class="iconarea">
+                              <span class="ico1"
+                                ><img
+                                  src="./images/common/icon_202101221303159300.png"
+                                  alt="장바구니 담기"
+                                  class="ec-admin-icon cart"
+                              /></span>
+                            </div>
+                          </div>
+                          <div class="description">
+                            <strong class="name"
+                              ><a href="">
+                                <span style="font-size: 18px; color: #333"
+                                  >빌리프 아쿠아 밤 점보 에디션 100ml</span
+                                >
+                              </a></strong
+                            >
+                            <ul
+                              class="xans-element- xans-product xans-product-listitem-10 xans-product-listitem xans-product-10 spec"
+                            >
+                              <li class="product_custom xans-record-">
+                                <span
+                                  style="
+                                    font-size: 12px;
+                                    color: #555;
+                                    text-decoration: line-through;
+                                  "
+                                  >73,000원</span
+                                >
+                              </li>
+                              <li class="product_price xans-record-">
+                                <span
+                                  style="
+                                    font-size: 20px;
+                                    color: #333;
+                                    font-weight: bold;
+                                  "
+                                  >65,700원</span
+                                >
+                                <span
+                                  class="discount_rate"
+                                  style="display: inline"
+                                  >10</span
+                                >
+                              </li>
+                            </ul>
+                            <div class="icon"></div>
+                          </div>
+                        </li>
+                        <li
+                          id="anchorBoxId_830"
+                          class="swiper-slide xans-record- sciper-slide-active"
+                        >
+                          <div class="thumbnail">
+                            <div class="prdImg">
+                              <a href="" name="anchorBoxName-830"
+                                ><img
+                                  src="./images/main/2.png"
+                                  alt="빌리프 아쿠아 밤 프로즌 크림"
+                              /></a>
+                            </div>
+                            <div class="iconarea">
+                              <span class="ico1"
+                                ><img
+                                  src="./images/common/icon_202101221303159300.png"
+                                  alt="장바구니 담기"
+                                  class="ec-admin-icon cart"
+                              /></span>
+                            </div>
+                          </div>
+                          <div class="description">
+                            <strong class="name"
+                              ><a href="">
+                                <span style="font-size: 18px; color: #333"
+                                  >빌리프 아쿠아 밤 프로즌 크림</span
+                                >
+                              </a></strong
+                            >
+                            <ul
+                              class="xans-element- xans-product xans-product-listitem-10 xans-product-listitem xans-product-10 spec"
+                            >
+                              <li class="product_custom xans-record-">
+                                <span
+                                  style="
+                                    font-size: 12px;
+                                    color: #555;
+                                    text-decoration: line-through;
+                                  "
+                                  >32,000원</span
+                                >
+                              </li>
+                              <li class="product_price xans-record-">
+                                <span
+                                  style="
+                                    font-size: 20px;
+                                    color: #333;
+                                    font-weight: bold;
+                                  "
+                                  >28,800원</span
+                                >
+                                <span
+                                  class="discount_rate"
+                                  style="display: inline"
+                                  >10</span
+                                >
+                              </li>
+                            </ul>
+                            <div class="icon"></div>
+                          </div>
+                        </li>
+                        <li
+                          id="anchorBoxId_832"
+                          class="swiper-slide xans-record- sciper-slide-active"
+                        >
+                          <div class="thumbnail">
+                            <div class="prdImg">
+                              <a href="" name="anchorBoxName-832"
+                                ><img
+                                  src="./images/main/5.png"
+                                  alt="빌리프 아쿠아 밤 프로즌 토너"
+                              /></a>
+                            </div>
+                            <div class="iconarea">
+                              <span class="ico1"
+                                ><img
+                                  src="./images/common/icon_202101221303159300.png"
+                                  alt="장바구니 담기"
+                                  class="ec-admin-icon cart"
+                              /></span>
+                            </div>
+                          </div>
+                          <div class="description">
+                            <strong class="name"
+                              ><a href="">
+                                <span style="font-size: 18px; color: #333"
+                                  >빌리프 아쿠아 밤 프로즌 토너</span
+                                >
+                              </a></strong
+                            >
+                            <ul
+                              class="xans-element- xans-product xans-product-listitem-10 xans-product-listitem xans-product-10 spec"
+                            >
+                              <li class="product_custom xans-record-">
+                                <span
+                                  style="
+                                    font-size: 12px;
+                                    color: #555;
+                                    text-decoration: line-through;
+                                  "
+                                  >32,000원</span
+                                >
+                              </li>
+                              <li class="product_price xans-record-">
+                                <span
+                                  style="
+                                    font-size: 20px;
+                                    color: #333;
+                                    font-weight: bold;
+                                  "
+                                  >28,800원</span
+                                >
+                                <span
+                                  class="discount_rate"
+                                  style="display: inline"
+                                  >10</span
+                                >
+                              </li>
+                            </ul>
+                            <div class="icon"></div>
+                          </div>
+                        </li>
+                        <li
+                          id="anchorBoxId_832"
+                          class="swiper-slide xans-record- sciper-slide-active"
+                        >
+                          <div class="thumbnail">
+                            <div class="prdImg">
+                              <a href="" name="anchorBoxName-832"
+                                ><img
+                                  src="./images/main/7.png"
+                                  alt="빌리프 뉴메로 10 에센ㅅ 125ml 수분에센스"
+                              /></a>
+                            </div>
+                            <div class="iconarea">
+                              <span class="ico1"
+                                ><img
+                                  src="./images/common/icon_202101221303159300.png"
+                                  alt="장바구니 담기"
+                                  class="ec-admin-icon cart"
+                              /></span>
+                            </div>
+                          </div>
+                          <div class="description">
+                            <strong class="name"
+                              ><a href="">
+                                <span style="font-size: 18px; color: #333"
+                                  >빌리프 뉴메로 10 에센ㅅ 125ml
+                                  수분에센스</span
+                                >
+                              </a></strong
+                            >
+                            <ul
+                              class="xans-element- xans-product xans-product-listitem-10 xans-product-listitem xans-product-10 spec"
+                            >
+                              <li class="product_custom xans-record-">
+                                <span
+                                  style="
+                                    font-size: 12px;
+                                    color: #555;
+                                    text-decoration: line-through;
+                                  "
+                                  >59,000원</span
+                                >
+                              </li>
+                              <li class="product_price xans-record-">
+                                <span
+                                  style="
+                                    font-size: 20px;
+                                    color: #333;
+                                    font-weight: bold;
+                                  "
+                                  >53,100원</span
+                                >
+                                <span
+                                  class="discount_rate"
+                                  style="display: inline"
+                                  >10</span
+                                >
+                              </li>
+                            </ul>
+                            <div class="icon"></div>
+                          </div>
+                        </li>
+                      </ul>
+                      <div class="swiper-scrollbar">
+                        <div
+                          class="swiper-scrollbar-drag"
+                          style="
+                            transform: translate3d(0px, 0px, 0px);
+                            width: 147px;
+                          "
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- // 베스트 상품 -->
+
+              <!-- 멤버십 혜택 -->
+              <div class="prd-member">
+                <div class="site-wrap">
+                  <div class="section-title"><h3>멤버십 혜택</h3></div>
+                  <ul>
+                    <li>
+                      <span class="ico"
+                        ><img src="./images/main/membership_ico1.png" alt=""
+                      /></span>
+                      <p>가입쿠폰<span>5% 지급</span></p>
+                    </li>
+                    <li>
+                      <span class="ico"
+                        ><img src="./images/main/membership_ico2.png" alt=""
+                      /></span>
+                      <p>해피쿠폰<span>매월 발급</span></p>
+                    </li>
+                    <li>
+                      <span class="ico"
+                        ><img src="./images/main/membership_ico3.png" alt=""
+                      /></span>
+                      <p>구매적립<span>1% 적립</span></p>
+                    </li>
+                    <li>
+                      <span class="ico"
+                        ><img src="./images/main/membership_ico4.png" alt=""
+                      /></span>
+                      <p>생일쿠폰<span>회원 등급별 차등지급</span></p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- // 멤버십 혜택 -->
+
+              <!-- 공지사항글 -->
+              <div class="main-notice">
+                <div class="site-wrap">
+                  <div
+                    class="xans-element- xans-board xans-board-listpackage-1 xans-board-listpackage xans-board-1 board"
+                  >
+                    <h3
+                      class="xans-element- xans-board xans-board-title-1 xans-board-title xans-board-1"
+                    >
+                      공지사항
+                    </h3>
+                    <div class="board_list">
+                      <div
+                        class="swiper-container swiper-container-initialized swiper-container-horizontal"
+                      >
+                        <div
+                          class="xans-element- xans-board xans-board-list-1 xans-board-list xans-board-1 swiper-wrapper"
+                        >
+                          <ul
+                            class="swiper-slide xans-record-"
+                            data-swiper-slide-index="1"
+                            style="width: 950px"
+                          >
+                            <li class="subject">
+                              <a href=""
+                                >[3월] 빌리프 모이스춰라이징 밤 클라우드 클렌저
+                                우수리뷰어 발표</a
+                              >
+                            </li>
+                            <li class="data">2025.03.27</li>
+                          </ul>
+                          <ul
+                            class="swiper-slide xans-record-"
+                            data-swiper-slide-index="2"
+                            style="width: 950px"
+                          >
+                            <li class="subject">
+                              <a href=""
+                                >[5월] 빌리프 아쿠아 밤 프로즌 크림 체험리뷰어
+                                당첨자 발표</a
+                              >
+                            </li>
+                            <li class="data">2025.05.12</li>
+                          </ul>
+                          <ul
+                            class="swiper-slide xans-record-"
+                            data-swiper-slide-index="2"
+                            style="width: 950px"
+                          >
+                            <li class="subject">
+                              <a href=""
+                                >[4월] 빌리프 슈퍼 드랍스 비타 딥 클렌징 오일
+                                우수리뷰어 발표</a
+                              >
+                            </li>
+                            <li class="data">2025.04.28</li>
+                          </ul>
+                        </div>
+                        <spna
+                          class="swiper-notification"
+                          aria-live="assertive"
+                          aria-atomic="true"
+                        ></spna>
+                      </div>
+                    </div>
+                    <a
+                      href=""
+                      class="bt_prev"
+                      tabindex="0"
+                      role="button"
+                      aria-label="Next slide"
+                      >이전글</a
+                    >
+                    <a
+                      href=""
+                      class="bt_next"
+                      tabindex="0"
+                      role="button"
+                      aria-label="Previous slide"
+                      >다음글</a
+                    >
+                    <a href="" class="bt_more">더보기</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- // 공지사항글 -->
+            </div>
+            <hr class="layout" />
+          </div>
+          <hr class="layout" />
+        </div>
+        <hr class="layout" />
+      </div>
       <!-- // main-container -->
-      <!-- other-brands -->
-      <div id="other-brands"></div>
-      <!-- // other-brands -->
+
       <!-- footer -->
       <div id="footer">
         <div class="inner">
           <div class="site-wrap">
             <div class="info-wrap">
-              <div class="logo"><img src="" alt="" /></div>
+              <div class="logo">
+                <img src="./images/common/belif_logo.png" alt="빌리프" />
+              </div>
               <ul class="util">
                 <li><a href="">사업자정보확인</a></li>
                 <li><a href="">이용약관</a></li>
@@ -92,13 +1288,65 @@
               </div>
               <!-- // 상점정보 -->
             </div>
-            <div class="foot_sns"></div>
-            <div class="xans-elemet- xans-layout xans-layout-info cs"></div>
-            <div class="lnk"></div>
+            <div class="foot_sns">
+              <a href=""
+                ><img src="./images/common/sns_ico1.png" alt="인스타그램아이콘"
+              /></a>
+              <a href=""
+                ><img src="./images/common/sns_ico2.png" alt="유튜브아이콘"
+              /></a>
+            </div>
+            <div class="xans-elemet- xans-layout xans-layout-info cs">
+              <h1 class="tlt">고객센터</h1>
+              <p class="phone">
+                <font size="3">주문/취소/배송/문의</font>
+                <font size="4">2345-6789</font>
+                <font size="3">제품 상담/품질 불편</font>
+                <font size="4">123-456-7890</font>
+              </p>
+              <p class="runtime">
+                평일 : 09:00~17:30<br />
+                점심시간 : 12:00~13:00<br />
+                주말 및 공휴일은 휴무입니다.<br />주소 : 땡땡도 땡땡시 땡땡구
+                땡떙동 123-4
+              </p>
+              <a href="" class="btnNormal">배송조회</a>
+              <a href="" class="btnNormal">반품문의</a>
+            </div>
+            <div class="lnk">
+              <h1 class="tlt">커뮤니티</h1>
+              <ul>
+                <li><a href="">공지사항</a></li>
+                <li><a href="">이벤트</a></li>
+                <li><a href="">상품Q&A</a></li>
+                <li><a href="">리뷰</a></li>
+              </ul>
+              <ul>
+                <li class="xans-element- xans-layout xans-layout-statelogoff">
+                  <a href="">회원가입</a>
+                </li>
+                <li class="xans-element- xans-layout xans-layout-statelogoff">
+                  <a href="">로그인</a>
+                </li>
+                <li>
+                  <a href="">마이페이지</a>
+                </li>
+                <li>
+                  <a href="">주문조회</a>
+                </li>
+              </ul>
+            </div>
             <div class="clear"></div>
-            <div
-              class="xans-element- xans-layout xans-layout-footer copyright"
-            ></div>
+            <div class="xans-element- xans-layout xans-layout-footer copyright">
+              <div class="escrow">
+                안전거래를 위해 페이먼트구매안전(에스크로)에 가입하여 서비스를
+                제공하고 있습니다.
+              </div>
+              <div class="copy">
+                Copyright &copy;<strong>빌리프 공식 온라인몰</strong>. All
+                rights reserved.
+              </div>
+            </div>
           </div>
         </div>
       </div>
